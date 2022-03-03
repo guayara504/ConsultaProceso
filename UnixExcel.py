@@ -94,7 +94,7 @@ def WaitForElement(self, path):
     return 0
 
 #Clase principal   
-if __name__ == "__main__":
+if __name__ == "__main__": 
     datos = {"fecha": "","despacho":"","ponente":"","tipo_proceso":"","clase_proceso":"","demandante":"","demandado":""}
     actuaciones = []
     buscador = Extractor()
